@@ -1,0 +1,7 @@
+{
+  "name": "my_profile",
+  "version": "1.0.0",
+  "dependencies": {
+    "firebase": "^9.15.0"
+  }
+}
