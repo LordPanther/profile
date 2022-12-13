@@ -22,7 +22,7 @@ class _DesktopScaffoldState extends State<DesktopBody> {
         body: Stack(children: <Widget>[
       const Positioned.fill(
         child: Image(
-          image: AssetImage("sky1.jpg"),
+          image: AssetImage("/desktop/sky.jpg"),
           fit: BoxFit.fill,
         ),
       ),
@@ -68,18 +68,6 @@ class _DesktopScaffoldState extends State<DesktopBody> {
                 IconButton(onPressed: (){
                   Navigator.of(context).pushNamed(RouteManager.mainPage);
                 }, icon: const Icon(FontAwesomeIcons.house, size: 35,))
-
-                // Container(
-                //   width: 100,
-                //   height: 100,
-                //   decoration: const BoxDecoration(
-                //       color: Colors.white, shape: BoxShape.circle),
-                //   child: const CircleAvatar(
-                //     backgroundColor: Colors.white,
-                //     foregroundImage: AssetImage(
-                //         "lindaningubane2.jpg"),
-                //   ),
-                // )
               ],
             ),
           )),
